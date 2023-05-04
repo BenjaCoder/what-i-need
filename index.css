@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    background-color: rgb(240, 160, 208);
+    align-items: center;
+    user-select: none;
+}
+
+h1 {
+    margin: auto;
+    font-family: "Showcard Gothic";
+}
+
+img {
+    width: 100px;
+    margin: 10px auto;
+}
+
+#input-box {
+    width: 280px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#add-button {
+    width: 280px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(135, 206, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#add-button:hover {
+    background-color: rgb(35, 106, 135);
+    box-shadow: 3px 3px 5px rgb(140, 60, 108);
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+ul li {
+    padding: 10px;
+    background-color: cornsilk;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+}
