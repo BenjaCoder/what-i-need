@@ -9,6 +9,11 @@ body {
     margin: 25px auto 0;
 }
 
+@font-face {
+    font-family: Showcard Gothic;
+    src: url(SHOWG.TTF);
+}
+
 h1 {
     margin: auto;
     font-family: "Showcard Gothic";
